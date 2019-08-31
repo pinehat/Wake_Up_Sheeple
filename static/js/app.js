@@ -1,7 +1,7 @@
-// Import data from data.js and store its table body
+// Store data from data.js as array
 var tableData = data;
 
-// Store table body as variable
+// Store reference to data table
 var tbody = d3.select("tbody");
 
 // Display data.js data in console
